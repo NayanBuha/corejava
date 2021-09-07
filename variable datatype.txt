@@ -1,0 +1,42 @@
+package variables;
+
+public class VarChar {
+
+	public static void main(String[] args) {
+
+	    int i = 5;
+		i = 20;
+		System.out.println("Integer type variable: " + i);
+
+		/*
+		  final int myNum=5;
+		  myNum=20; //will generate an error;
+		 */
+
+		final char ch = 'a';
+		{
+			System.out.println("Character type : " + ch);
+		}	
+		
+		final String name = "Nayan Buha";
+		{
+			System.out.println("String type Variables : " + name);
+		}
+		
+		final float f = 5.6f;
+		{
+			System.out.println("Floating type Variable : " + f);
+		}
+		
+		final double d = 5.66666666;
+		{
+			System.out.println("Double type Variable : " + d);
+		}
+		
+		final boolean mybool = true;
+		{
+			System.out.println(mybool);
+		}
+	}
+
+}

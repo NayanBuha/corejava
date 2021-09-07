@@ -1,0 +1,44 @@
+package DataType.Example;
+
+public class Example {
+
+	private void data() {
+		final int a = 5;
+		{
+			System.out.println("Integer: " + a);
+		}
+
+		final float f1 = 5.6f;
+		{
+			System.out.println("Floating : " + f1);
+		}
+
+		final double d1 = 6.3333;
+		{
+			System.out.println("Double : " + d1);
+		}
+
+		final String s1 = "Nayan";
+		{
+			System.out.println("String : " + s1);
+		}
+
+		final char c1 = 'n';
+		{
+			System.out.println("Character : " + c1);
+		}
+
+		final boolean b1 = true;
+		{
+			System.out.println("boolean : " + b1);
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Example ex = new Example();
+
+		ex.data();
+
+	}
+}

@@ -1,0 +1,15 @@
+package Method.Obj1;
+
+public class Obj1 {
+
+	static void example() {
+		System.out.println("hello Methods");
+	}
+
+	public static void main(String[] args) {
+
+		example();
+
+	}
+
+}
